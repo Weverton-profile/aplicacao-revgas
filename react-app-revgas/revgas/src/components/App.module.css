@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+/* Aplicando a animação aos elementos conforme o tamanho da tela */
+@media screen and (max-width: 750px) {
+    .content {
+        display: block;
+        margin: 20px;
+    }
+}

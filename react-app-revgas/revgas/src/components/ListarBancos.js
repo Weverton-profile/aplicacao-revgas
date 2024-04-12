@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './ListarBancos.module.css'
 
 const ListarBancos = () => {
   const [bancos, setBancos] = useState([]);
@@ -35,9 +36,9 @@ const ListarBancos = () => {
   };
 
   return (
-    <div>
-      <h2>Listar Bancos</h2>
-      <button onClick={() => handleFetchBancos(0)}>Carregar Bancos</button>
+    <div className={styles.content}>
+      <h2 className={styles.titulo}>Listar Bancos</h2>
+      <button className={styles.button} onClick={() => handleFetchBancos(0)}>Carregar Bancos</button>
       {dadosCarregados && (
         <div>
           <ul>
@@ -48,8 +49,8 @@ const ListarBancos = () => {
             ))}
           </ul>
           <div>
-            <button onClick={handlePrevPage} disabled={currentPage === 0}>Página Anterior</button>
-            <button onClick={handleNextPage} disabled={currentPage === totalPages - 1}>Próxima Página</button>
+            <button className={styles.button} onClick={handlePrevPage} disabled={currentPage === 0}>Página Anterior</button>
+            <button className={styles.button} onClick={handleNextPage} disabled={currentPage === totalPages - 1}>Próxima Página</button>
           </div>
         </div>
       )}

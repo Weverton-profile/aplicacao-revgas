@@ -1,0 +1,27 @@
+.content {
+    width: 50%;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.input {
+    font-size: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.button {
+    background-color: #EE7676;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+}

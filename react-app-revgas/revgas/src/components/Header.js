@@ -1,10 +1,10 @@
 import React from 'react';
+import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <div>
-      <h1>Api Bancos</h1>
-      <img src="logo.png" alt="Logo" />
+    <div className={styles.container}>
+      <h1 className={styles.titulo}>Api Bancos</h1>
     </div>
   );
 };

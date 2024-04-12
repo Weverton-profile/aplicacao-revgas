@@ -1,0 +1,20 @@
+.content {
+    width: 50%;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.button {
+    background-color: #EE7676;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
