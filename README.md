@@ -28,9 +28,7 @@ Neste projeto, desenvolvi uma API utilizando o framework Spring e a consumi em u
 
 2. Navegue até o diretório da API e execute o seguinte arquivo:
 
-    ```
     [RevgasApplication.java](https://github.com/Weverton-profile/aplicacao-revgas/blob/main/revgas/src/main/java/com/devops/revgas/RevgasApplication.java)
-    ```
 
 3. Em seguida, navegue até o diretório do projeto React e execute o seguinte comando para iniciar a aplicação:
 
