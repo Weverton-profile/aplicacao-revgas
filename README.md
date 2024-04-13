@@ -29,30 +29,15 @@ Neste projeto, desenvolvi uma API utilizando o framework Spring e a consumi em u
 2. Navegue até o diretório da API e execute o seguinte arquivo:
 
     ```
-    [cd api
-    ./mvnw spring-boot:run](https://github.com/Weverton-profile/aplicacao-revgas/blob/main/revgas/src/test/java/com/devops/revgas/RevgasApplicationTests.java)
+    [RevgasApplication.java](https://github.com/Weverton-profile/aplicacao-revgas/blob/main/revgas/src/main/java/com/devops/revgas/RevgasApplication.java)
     ```
 
 3. Em seguida, navegue até o diretório do projeto React e execute o seguinte comando para iniciar a aplicação:
 
     ```
-    cd react-app
+    cd aplicacao-revgas/react-app-revgas/revgas
     npm install
     npm start
     ```
 
 4. Acesse a aplicação React em [http://localhost:3000](http://localhost:3000).
-
-## Contribuindo
-
-Se deseja contribuir para este projeto, siga estas etapas:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua modificação: `git checkout -b feature/nova-feature`
-3. Faça commit das suas alterações: `git commit -am 'Adiciona nova feature'`
-4. Faça push para a branch: `git push origin feature/nova-feature`
-5. Envie um pull request
-
-## Licença
-
-Inclua aqui a licença do seu projeto, se houver.
