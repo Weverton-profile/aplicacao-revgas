@@ -6,8 +6,6 @@
 - [Visão Geral](#visão-geral)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Usar](#como-usar)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ## Visão Geral
 
@@ -34,6 +32,8 @@ Neste projeto, desenvolvi uma API utilizando o framework Spring e a consumi em u
    spring.jpa.show-sql=true
    spring.jpa.properties.hibernate.format_sql=true
   	```
+   Garanta que o Schema "revgas" ja esteja criado, as tabelas serão geradas no momento que a aplicação subir.
+   Os inserts para testar a aplicação - [Inserts SQL](https://github.com/Weverton-profile/aplicacao-revgas/blob/main/insert-dos-dados/inserts_revgas.sql))
 3. Clone este repositório:
 
     ```
