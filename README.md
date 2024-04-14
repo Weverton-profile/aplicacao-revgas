@@ -17,7 +17,12 @@ Neste projeto, desenvolvi uma API utilizando o framework Spring e a consumi em u
 - React
 
 ## Como Usar
-1. Faça as devidas alterações no arquivo:
+1. Clone este repositório:
+
+    ```
+    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Weverton-profile/aplicacao-revgas.git)
+    ```
+2. Faça as devidas alterações no arquivo:
    
    ```
     application.properties
@@ -34,17 +39,12 @@ Neste projeto, desenvolvi uma API utilizando o framework Spring e a consumi em u
   	```
    Garanta que o Schema "revgas" ja esteja criado, as tabelas serão geradas no momento que a aplicação subir.
    Os inserts para testar a aplicação - [Inserts SQL](https://github.com/Weverton-profile/aplicacao-revgas/blob/main/insert-dos-dados/inserts_revgas.sql))
-3. Clone este repositório:
-
-    ```
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Weverton-profile/aplicacao-revgas.git)
-    ```
-
-4. Navegue até o diretório da API e execute o seguinte arquivo:
+   
+3. Navegue até o diretório da API e execute o seguinte arquivo:
 
     [RevgasApplication.java](https://github.com/Weverton-profile/aplicacao-revgas/blob/main/revgas/src/main/java/com/devops/revgas/RevgasApplication.java)
 
-5. Em seguida, navegue até o diretório do projeto React e execute o seguinte comando para iniciar a aplicação:
+4. Em seguida, navegue até o diretório do projeto React e execute o seguinte comando para iniciar a aplicação:
 
     ```
     cd aplicacao-revgas/react-app-revgas/revgas
@@ -52,4 +52,4 @@ Neste projeto, desenvolvi uma API utilizando o framework Spring e a consumi em u
     npm start
     ```
 
-6. Acesse a aplicação React em [http://localhost:3000](http://localhost:3000).
+5. Acesse a aplicação React em [http://localhost:3000](http://localhost:3000).
